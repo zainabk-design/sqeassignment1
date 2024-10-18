@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-10-18T10:49:29.074Z",
+        "line": 3,
+        "name": "Check login is succcessful with valid credentials",
+        "description": "",
+        "id": "feature-to-test-login-functionality;check-login-is-succcessful-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "io.cucumber.java.PendingException: TODO: implement me\r\n\tat StepsDefination.LoginSteps.user_is_on_login_page(LoginSteps.java:13)\r\n\tat ✽.user is on login page(file:///C:/Users/Abdul%20haseeb%20zubair/Desktop/new%20sqe%20project%20file/logintesting/src/test/resources/Features/login.feature:4)\r\n",
+              "duration": 6860700,
+              "status": "pending"
+            },
+            "line": 4,
+            "name": "user is on login page",
+            "match": {
+              "location": "StepsDefination.LoginSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user enters username and password",
+            "match": {
+              "location": "StepsDefination.LoginSteps.user_enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "clisks on login button",
+            "match": {
+              "location": "StepsDefination.LoginSteps.clisks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user is navigated to the home page",
+            "match": {
+              "location": "StepsDefination.LoginSteps.user_is_navigated_to_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "feature to test login functionality",
+    "description": "",
+    "id": "feature-to-test-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": []
+  }
+]
